@@ -108,7 +108,7 @@ class PersonDetect:
 
     def preprocess_input(self, image):
         # get the model input shape
-        model_shape = self.input_shape()
+        model_shape = self.input_shape
         model_w = model_shape[3]
         model_h = model_shape[2]
         # copy the frame as numpy.ndarray and assignes the returning copy to the frame4infer variable.
