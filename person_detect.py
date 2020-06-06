@@ -45,9 +45,9 @@ class PersonDetect:
         self.threshold=threshold
 
         try:
-#             self.model=IENetwork(self.model_structure, self.model_weights)
+            # Initialize the plugin
             self.ie = IECore()
-            #read model from IR and creates an IENetwork object
+            # Read model from IR and creates an IENetwork object
             self.model = self.ie.read_network(self.model_structure, self.model_weights)             
         except Exception as e:
             raise ValueError("Could not Initialise the network. Have you enterred the correct model path?")
@@ -56,16 +56,10 @@ class PersonDetect:
         self.input_shape=self.model.inputs[self.input_name].shape
         self.output_name=next(iter(self.model.outputs))
         self.output_shape=self.model.outputs[self.output_name].shape
-#         self.plugin = None
         self.exec_network = None        
 
     def load_model(self, device):
-#         # Initialize the plugin
-#         self.plugin = IECore()
-
-#         # Load the IENetwork into the plugin
-#         self.exec_network = self.plugin.load_network(self.model, device)
-        # load the network self.model that was read from IR to the plugin self.ie with specified device name        
+        # Load the network `self.model` that was read from IR to the plugin `self.ie` with specified device name        
         # and creates an ExecutableNetwork object of the IENetwork class
         self.exec_network = self.ie.load_network(self.model, device)
         
