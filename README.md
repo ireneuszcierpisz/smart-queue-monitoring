@@ -30,4 +30,4 @@ The following timings for the model are compared across all 4 devices (CPU, GPU,
 - Average Inference Time   [retail scenario bar graph](https://github.com/ireneuszcierpisz/smart-queue-monitoring/blob/master/retail_model-inference-time.png)
 - FPS    [retail scenario bar graph](https://github.com/ireneuszcierpisz/smart-queue-monitoring/blob/master/retail_model-FPS.png)
 
-To view the 'Retail CPU' output_video.mp4  [please click here](https://studio.youtube.com/video/DeEV4EU_HBU/edit).
+To view the 'Retail CPU' output_video.mp4  [please click here](https://youtu.be/DeEV4EU_HBU).
