@@ -12,6 +12,18 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 
 #### Usage
 
+  required arguments:
+  
+    --model              The location of the model XML file
+
+  optional arguments:
+  
+    --device              The device name
+    --video               The location of the video file    
+    --queue_param         The queue coordinates
+    --output_path         The path to the results folder
+    --max_people          The max number of people in queue
+    --threshold           The probability threshold to select bounding boxes
 
 #### CPU job was submitted to the 
    - Edge Compute Node [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
