@@ -23,9 +23,10 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
    The inference workload was run on the **[IEI Mustang-F100-A10](https://www.ieiworld.com/mustang-f100/en/)** FPGA card installed in this node.
 ## Results
 **The example**
+
 Comparision of the performance person-detection-retail-0013/FP16/ model across 4 devices. 
 The following timings for the model are compared across all 4 devices (CPU, GPU, VPU, FPGA):
 - Model Loading Time   retail scenario bar chart
-- Average Inference Time   retail scenario bar chart
+- Average Inference Time   [retail scenario bar chart](https://github.com/ireneuszcierpisz/smart-queue-monitoring/blob/master/retail_model-inference-time.png)
 - FPS    retail scenario bar chart
 To view the 'Retail CPU' output video  please click here.
