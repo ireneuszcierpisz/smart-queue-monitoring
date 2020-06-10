@@ -11,10 +11,8 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 * Retrieve and review the results.
 * Propose hardware device for retail, manufacturing and transportation scenarios.
 
-## Submit a job to an Edge Compute Node with an Intel CPU
-submit CPU job to an <a href="https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core">IEI 
-    Tank* 870-Q170</a> edge node with an <a href="https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-">Intel® Core™ i5-6500TE processor</a>.
-## Submit a job to an Edge Compute Node with a CPU and IGPU
+### Submit CPU job to an [IEI Tank* 870-Q170 edge compute node]("https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core")  with an [Intel® Core™ i5-6500TE processor]("https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-").
+### Submit a job to an Edge Compute Node with a CPU and IGPU
 submit GPU job to an <a href="https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core">IEI 
     Tank* 870-Q170</a> edge node with an <a href="https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-">Intel® Core i5-6500TE</a>. The inference workload should run on the **Intel® HD Graphics 530** integrated GPU.
 ## Submit to an Edge Compute Node with an Intel® Neural Compute Stick 2
