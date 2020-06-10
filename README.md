@@ -8,7 +8,7 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 * Build out the **smart queuing application** to test its performance on the **Intel® DevCloud** using multiple hardware types.
 * Submit inference jobs to **Intel® DevCloud** using the `qsub` command.
 * Retrieve and review the results.
-* Propose hardware device for retail, manufacturing and transportation scenarios.
+* Propose hardware device for **retail**, **manufacturing** and **transportation** scenarios.
 
 #### CPU job was submitted to the 
    - Edge Compute Node [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
@@ -24,9 +24,10 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 ## Results
 **The example**
 
-Comparision of the performance person-detection-retail-0013/FP16/ model across 4 devices. 
+Comparision of the performance person-detection-retail-0013/FP16/ model across 4 devices for retail scenario. 
 The following timings for the model are compared across all 4 devices (CPU, GPU, VPU, FPGA):
 - Model Loading Time   retail scenario bar chart
 - Average Inference Time   [retail scenario bar chart](https://github.com/ireneuszcierpisz/smart-queue-monitoring/blob/master/retail_model-inference-time.png)
-- FPS    retail scenario bar chart
-To view the 'Retail CPU' output video  please click here.
+- FPS    [retail scenario bar chart](https://github.com/ireneuszcierpisz/smart-queue-monitoring/blob/master/retail_model-FPS.png)
+
+To view the 'Retail CPU' output video  [please click here]().
