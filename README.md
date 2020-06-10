@@ -11,7 +11,7 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 * Propose hardware device for retail, manufacturing and transportation scenarios.
 
 #### CPU job was submitted to the 
-   Edge Compute Node [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
+   - Edge Compute Node [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-).
 #### GPU job was submitted to the
    - Edge Compute Node with a CPU and GPU [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE processor](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-). 
    The inference workload was run on the **Intel® HD Graphics 530** integrated GPU.
@@ -22,7 +22,8 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
    - Edge Compute Node [IEI Tank* 870-Q170](https://software.intel.com/en-us/iot/hardware/iei-tank-dev-kit-core)  with an [Intel® Core™ i5-6500TE CPU](https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-). 
    The inference workload was run on the **[IEI Mustang-F100-A10](https://www.ieiworld.com/mustang-f100/en/)** FPGA card installed in this node.
 ## Results
-Comparrision of the performance person-detection-retail-0013/FP16/ model across 4 devices. 
+**The example**
+Comparision of the performance person-detection-retail-0013/FP16/ model across 4 devices. 
 The following timings for the model are compared across all 4 devices (CPU, GPU, VPU, FPGA):
 - Model Loading Time   retail scenario bar chart
 - Average Inference Time   retail scenario bar chart
