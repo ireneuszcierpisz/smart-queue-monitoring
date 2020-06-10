@@ -85,7 +85,7 @@ class PersonDetect:
         for coord in coords:
             cv2.rectangle(image_copy, coord[:2], coord[2:], (255,0,0), 2 )
             
-        return image
+        return image_copy
 
     def preprocess_outputs(self, outputs, image):
         height, width = image.shape[0:2]
