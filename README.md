@@ -21,7 +21,8 @@ I also used the **Heterogeneous** plugin which "enables computing for inference 
   optional arguments:
   
     --device              The device name (CPU, GPU, FPGA, MYRIAD)
-                          I used also HETERO:CPU,GPU , HETERO:FPGA,CPU , MULTI:CPU,GPU , MULTI:CPU,MYRIAD
+                          I used also HETERO:GPU,CPU for gpu_job ,  HETERO:FPGA,CPU for fpga_job, 
+                                      MULTI:CPU,GPU for cpu_job,  MULTI:CPU,MYRIAD for vpu_job
     --video               The location of the video file    
     --queue_param         The queue coordinates
     --output_path         The path to the results folder
