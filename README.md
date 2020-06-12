@@ -2,7 +2,9 @@
 ### Project as a part of Udacity Intel® Edge AI for IoT Developers Nanodegree Program
 
 ## Overview
-Write Python script and job submission script to request Intel **IEI Tank-870** edge node and run inference on the different hardware types (CPU, GPU, VPU, FPGA). 
+Writing Python script and job submission script to request Intel **IEI Tank-870** edge node and run inference on the different hardware types (CPU, GPU, VPU, FPGA). 
+
+I also used the **Heterogeneous** plugin which "enables computing for inference on one network on several devices" and **Multi-Device** plugin that "automatically assigns inference requests to available computational devices to execute the requests in parallel"(**OpenVINO Toolkit**).
 
 ## Objectives
 * Build out the **smart queuing application** to test its performance on the **Intel® DevCloud** using multiple hardware types.
@@ -18,7 +20,8 @@ Write Python script and job submission script to request Intel **IEI Tank-870** 
 
   optional arguments:
   
-    --device              The device name
+    --device              The device name (CPU, GPU, FPGA, MYRIAD)
+                          I used also HETERO:CPU,GPU , HETERO:FPGA,CPU , MULTI:CPU,GPU , MULTI:CPU,MYRIAD
     --video               The location of the video file    
     --queue_param         The queue coordinates
     --output_path         The path to the results folder
